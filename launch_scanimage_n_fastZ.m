@@ -1,4 +1,4 @@
-function launch_SI_with_fastZ
+function launch_scanimage_n_fastZ
     
     % Start ScanImage
     scanimage;
