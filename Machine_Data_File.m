@@ -124,11 +124,11 @@ channelIDs = [1 3 0 2];     % Array of numeric channel IDs for PMT inputs. Leave
 XMirrorChannelID = 0;     % The numeric ID of the Analog Output channel to be used to control the X Galvo.
 YMirrorChannelID = 1;     % The numeric ID of the Analog Output channel to be used to control the y Galvo.
 
-xGalvoAngularRange = 20;     % max range in optical degrees (pk-pk) for x galvo
+xGalvoAngularRange = 15;     % max range in optical degrees (pk-pk) for x galvo
 yGalvoAngularRange = 15;     % max range in optical degrees (pk-pk) for y galvo
 
-voltsPerOpticalDegreeX = 1;     % galvo conversion factor from optical degrees to volts (negative values invert scan direction)
-voltsPerOpticalDegreeY = 1;     % galvo conversion factor from optical degrees to volts (negative values invert scan direction)
+voltsPerOpticalDegreeX = 0.5;     % galvo conversion factor from optical degrees to volts (negative values invert scan direction)
+voltsPerOpticalDegreeY = 0.5;     % galvo conversion factor from optical degrees to volts (negative values invert scan direction)
 
 scanParkAngleX = -8;     % Numeric [deg]: Optical degrees from center position for X galvo to park at when scanning is inactive
 scanParkAngleY = -8;     % Numeric [deg]: Optical degrees from center position for Y galvo to park at when scanning is inactive
